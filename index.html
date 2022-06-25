@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index_style.css">
+</head>
+<body>
+
+    <div class="nav-bar text-center">
+        <div class="menu">
+            <ul>
+                
+                <li class="item1" style="opacity: 0; padding-top: 500px;"><a class="nav-cat" href="#">Now playing</a></li>
+                <li class="item2" style="opacity: 0; padding-top: 500px;"><a class="nav-cat"  href="#">Popular</a></li>
+                <li class="item3" style="opacity: 0; padding-top: 500px;"><a class="nav-cat"  href="#">Top Rated</a></li>
+                <li class="item4" style="opacity: 0; padding-top: 500px;"><a class="nav-cat"  href="#">Trending</a></li>
+                <li class="item5" style="opacity: 0; padding-top: 500px;"><a class="nav-cat"  href="#">Upcoming</a></li>
+                <li class="item6" style="opacity: 0; padding-top: 500px;"><a class="nav-cat"  href="#contact">Contact Us</a></li>
+            </ul>
+            <div class="menu-social">
+                <a href="#">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="fa fa-globe"></i>
+                </a>
+                <div>
+                    Copyright Â© 2019 All Rights Reserved.
+                </div>
+            </div>
+        </div>
+        <div class="nav-part">
+            <div class="logo">
+                <img src="images/logo.png" alt="logo">
+            </div>
+            <div class="toggle-nav">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="social-icons">
+                <div class="lang">
+                    <i class="fas fa-globe"></i>
+                </div>
+                <div class="share">
+                    <i class="fas fa-share-alt"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    <div class="search">
+        <input class="form-control-color" type="text" id="allMovies" placeholder="get movies by word...">
+        <input class="form-control-color" type="text" id="word" placeholder="search">
+    </div>
+
+    <section class="container text-center my-5">
+				
+		<div class="row" id="res">		
+		</div>
+
+	</section>
+ 
+
+   <section>
+        <div class="container movies">
+            <div class="row g-5 rowData">
+               
+            </div>
+            
+        </div>
+
+   </section>
+
+
+
+   <section class="my-5">
+    <div class="container contact my-5" id="contact">
+        <h2 class="my-5">ContactUs...</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <input class="form-control-color" type="text" id="name" placeholder="Enter Your name">
+                <div class="alert alert-danger" id="namealert" role="alert" style="display: none;">
+                    Your Name is not valid
+                  </div>
+               
+             
+            
+            </div>
+            <div class="col-md-6">
+                <input class="form-control-color" type="email" id="email" placeholder="Enter Email">
+                <div class="alert alert-danger" id="emailalert" role="alert" style="display: none;">
+                    entre valid email
+                  </div>
+            </div>
+            <div class="col-md-6">
+                <input class="form-control-color" type="text" id="phone" placeholder="Enter phone">
+                <div class="alert alert-danger" id="phonealert" role="alert" style="display: none;">
+                    entre valid phone
+                  </div>
+            </div>
+            <div class="col-md-6">
+                <input class="form-control-color" type="text" id="age" placeholder="Enter Age">
+                <div class="alert alert-danger" id="agealert" role="alert" style="display: none;">
+                    entre valid Age
+                  </div>
+            </div>
+            <div class="col-md-6">
+               
+                <input class="form-control-color" type="password" id="password" placeholder="Enter password">
+                <div class="alert alert-danger" id="passwordalert" role="alert" style="display: none;">
+                    entre valid password *Minimum eight characters, at least one letter and one number:*
+                  </div>
+            </div>
+            <div class="col-md-6">
+                <input class="form-control-color" type="password" id="repassword" placeholder="Enter RePassword">
+                <div class="alert alert-danger" id="repasswordalert" role="alert" style="display: none;">
+                    entre valid Repassword
+                  </div>
+            </div>
+        </div>
+        <button class="btn btn-outline-danger my-3 p-3">submit</button>
+    </div>
+   </section>
+
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
